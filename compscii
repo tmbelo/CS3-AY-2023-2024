@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>1st Quarter Laboratory Exercises</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+        }
+        li {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>1st Quarter Laboratory Exercises</h1>
+    <ul>
+        <li><a href="mod2-1_Belotindps.html">Lab Exercise 1</a></li>
+        <li><a href="mod2-2_Belotindos.html">Lab Exercise 2</a></li>
+		<li><a href="mod2-3_Belotindos_1.html">Lab Exercise 3</a></li>
+		<li><a href="mod3-1_Belotindos.html">Lab Exercise 4</a></li>
+    </ul>
+    <footer>
+        <p>BEOTINDOS,TREXIE MAYE</p>
+        <p>9-POTASSIUM</p>
+    </footer>
+</body>
+</html>
