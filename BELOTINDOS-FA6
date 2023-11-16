@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html>
+
+	<head>
+
+	<style>
+
+	a:link{
+		color: black; 
+		background-color: #d5e1df; 
+		text decoration: none;
+		border-style: solid; 
+		margin-right: 10px;
+		}
+
+	a:visited{
+		color:#cce6ff;
+		background-color:#e699ff;
+		text-decoration: none;
+	}
+	a:hover{
+		color: olive green;
+		background-color: dark green; 
+		text-decoration: none;
+	}
+	a:active { 
+		color: orange;
+		background-color: light blue;
+		text-decoration: none;
+	}
+	#div1{
+		width: 200px;
+		height: 200px;
+		border: 2px solid black;
+		margin-top: 40px; 
+		bakground-color: #99ff66 ;
+	}
+	#div2 {
+		border: 2px solid black; 
+		width: 200px;
+		height: 200px;
+		margin-top: 50px;
+		background-color: white;
+	}
+	#div1:target{
+		background-color:#99ff66;
+		color: black;
+	}
+	
+	#div2:target{
+	background-color: green;
+	border: 10px dotted darkgreen;
+	color: black;
+	}
+	</style>
+
+	<body>
+
+		<a href="#div1"> link 1 </a>
+
+		<a href="#div2"> link 2 </a>
+
+		<div id="div1"> div 1 </div>
+
+		<div id="div2"> div 2 </div>
+
+	</body>
+
+	</head>
+
+</html>
