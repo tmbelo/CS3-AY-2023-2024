@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Coding Challenge 6</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            background-color: lightseagreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Quadratic Formula</h1>
+
+    <button onclick="solve()">Find the root</button>
+
+    <h4 id="result"></h4>
+
+    <script>
+        function solve(){
+            var a = parseFloat(prompt("Enter the value of coefficient a:"));
+            var b = parseFloat(prompt("Enter the value of coefficient b:"));
+            var c = parseFloat(prompt("Enter the value of coefficient c:"));
+
+            var discriminant = b * b - 4 * a * c;
+
+            if (discriminant > 0) {
+                var root1 = (-b + Math.sqrt(discriminant)) / (2 * a);
+                var root2 = (-b - Math.sqrt(discriminant)) / (2 * a);
+                document.getElementById("result").innerHTML = "Root 1: " + root1 + ", Root 2: " + root2;
+            } else if (discriminant == 0) {
+                var root = -b / (2 * a);
+                document.getElementById("result").innerHTML = "Root: " + root;
+            } else {
+                document.getElementById("result").innerHTML = "Imaginary";
+            }
+        }
+    </script>
+        <a href="index.html">Back to main page</a>
+</body>
+</html>
